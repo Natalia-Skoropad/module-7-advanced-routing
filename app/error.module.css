@@ -1,0 +1,19 @@
+.wrap {
+  display: grid;
+  gap: 10px;
+  place-items: center;
+  background: var(--bg-1);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px;
+  text-align: center;
+}
+.btn {
+  margin-top: 6px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+}
+.btn:hover {
+  border-color: color-mix(in oklab, var(--accent) 35%, var(--border));
+}

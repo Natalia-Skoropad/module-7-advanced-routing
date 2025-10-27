@@ -1,0 +1,42 @@
+.backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: rgba(6, 8, 12, 0.65);
+  backdrop-filter: blur(6px);
+  display: grid;
+  place-items: center;
+  padding: 24px;
+}
+.dialog {
+  width: min(720px, 100%);
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: clamp(16px, 2.4vw, 28px);
+  box-shadow: var(--shadow-2);
+  display: grid;
+  gap: 14px;
+  animation: pop 0.18s ease-out;
+}
+.close {
+  justify-self: end;
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  color: #fff;
+  transition: 0.2s ease;
+}
+.close:hover {
+  border-color: color-mix(in oklab, var(--accent) 35%, var(--border));
+}
+@keyframes pop {
+  from {
+    transform: scale(0.97);
+    opacity: 0.8;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

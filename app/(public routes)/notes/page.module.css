@@ -1,0 +1,11 @@
+.section {
+  display: grid;
+  gap: 18px;
+}
+
+.h1 {
+  margin-bottom: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
