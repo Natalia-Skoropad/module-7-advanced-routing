@@ -47,16 +47,16 @@ export const getCategories = async () => {
 };
 
 // ===== Mock users for the Profile route =====
+
 export type User = { id: string; name: string };
 
 const MOCK_USERS: User[] = [
-  { id: '1', name: 'Nataliia Skoropad' },
+  { id: '1', name: 'Brad Pitt' },
   { id: '2', name: 'Ada Lovelace' },
-  { id: 'me', name: 'User name' },
+  { id: '3', name: 'Bugs Bunny' },
 ];
 
 export async function getUser(id: string): Promise<User | null> {
-  // імітуємо мережеву затримку
   await new Promise(r => setTimeout(r, 200));
   return MOCK_USERS.find(u => u.id === id) ?? null;
 }

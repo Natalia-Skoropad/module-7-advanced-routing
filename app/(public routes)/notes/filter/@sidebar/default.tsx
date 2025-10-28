@@ -15,10 +15,10 @@ async function NotesSidebar() {
           All notes
         </Link>
       </li>
-      {categories.map(c => (
-        <li key={c.id}>
-          <Link className={css.link} href={`/notes/filter/${c.id}`}>
-            {c.name}
+      {categories.map(category => (
+        <li key={category.id}>
+          <Link className={css.link} href={`/notes/filter/${category.id}`}>
+            {category.name}
           </Link>
         </li>
       ))}

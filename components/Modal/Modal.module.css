@@ -8,6 +8,7 @@
   place-items: center;
   padding: 24px;
 }
+
 .dialog {
   width: min(720px, 100%);
   background: var(--card);
@@ -19,6 +20,7 @@
   gap: 14px;
   animation: pop 0.18s ease-out;
 }
+
 .close {
   justify-self: end;
   padding: 8px 12px;
@@ -27,9 +29,11 @@
   color: #fff;
   transition: 0.2s ease;
 }
+
 .close:hover {
   border-color: color-mix(in oklab, var(--accent) 35%, var(--border));
 }
+
 @keyframes pop {
   from {
     transform: scale(0.97);

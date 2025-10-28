@@ -7,6 +7,7 @@
   padding: clamp(18px, 2.4vw, 28px);
   box-shadow: var(--shadow-1);
 }
+
 .section a {
   justify-self: start;
   padding: 10px 14px;
@@ -14,6 +15,7 @@
   border: 1px solid var(--border);
   transition: 0.2s ease;
 }
+
 .section a:hover {
   border-color: color-mix(in oklab, var(--accent) 35%, var(--border));
   color: #fff;

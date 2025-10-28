@@ -3,6 +3,7 @@
   margin-inline: auto;
   padding-inline: var(--container-pad-m);
 }
+
 @media (min-width: 1320px) {
   .container {
     padding-inline: var(--container-pad-d);
@@ -18,6 +19,7 @@
   color: var(--muted);
   background: color-mix(in oklab, var(--bg-1) 85%, transparent);
 }
+
 .footer time {
   color: #fff;
 }

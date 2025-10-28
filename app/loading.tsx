@@ -6,7 +6,7 @@ function Loading() {
   return (
     <div className={css.wrap}>
       <div className={css.spinner}></div>
-      <p>Завантаження нотатків...</p>
+      <p>Завантаження інформації...</p>
     </div>
   );
 }

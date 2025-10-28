@@ -7,13 +7,16 @@
   display: grid;
   gap: 16px;
 }
+
 .title {
   margin: 0;
 }
+
 .body {
   color: var(--text);
   opacity: 0.95;
 }
+
 .meta {
   margin-top: 6px;
   color: var(--muted);

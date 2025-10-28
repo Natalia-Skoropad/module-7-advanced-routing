@@ -38,10 +38,11 @@ function NoteDetailsClient() {
 
   return (
     <div className={css.wrap}>
-      <button onClick={handleGoBack}>Back</button>
       <h2 className={css.title}>{note.title}</h2>
       <p className={css.body}>{note.content}</p>
       <p className={css.meta}>{formattedDate}</p>
+
+      <button onClick={handleGoBack}>Back</button>
     </div>
   );
 }

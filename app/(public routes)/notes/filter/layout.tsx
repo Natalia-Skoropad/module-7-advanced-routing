@@ -17,4 +17,5 @@ function NotesLayout({ children, sidebar }: NotesLayoutProps) {
     </section>
   );
 }
+
 export default NotesLayout;

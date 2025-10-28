@@ -26,6 +26,7 @@
   margin: 0;
   padding: 0;
 }
+
 .navigation a {
   display: inline-flex;
   align-items: center;
@@ -36,6 +37,7 @@
   transition: all 0.2s ease;
   border: 1px solid transparent;
 }
+
 .navigation a:hover {
   color: #fff;
   border-color: color-mix(in oklab, var(--accent) 40%, transparent);
